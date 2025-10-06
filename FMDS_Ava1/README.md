@@ -42,3 +42,7 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## 👥 Integrantes do Grupo
+
+* **Wesley Rodrigo Barbosa Mafra** - Matrícula: 20230006067
