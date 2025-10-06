@@ -10,6 +10,21 @@ O projeto foi construído com Vue 3 (Composition API), Vite, Vuetify 3 para a in
 -   Listar todos os filmes cadastrados.
 -   Excluir filmes da lista.
 -   Visualizar a contagem total de filmes cadastrados na página "Sobre".
+  
+## 🏛️ Estrutura do Projeto
+
+A aplicação é dividida nas seguintes rotas e componentes principais:
+
+### Rotas (Páginas)
+
+-   **/ (ou /lista)**: Página principal que lista todos os filmes cadastrados. Utiliza o componente `Lista.vue`.
+-   **/filmes**: Página que contém o formulário para adicionar um novo filme. Utiliza o componente `Filmes.vue`.
+-   **/sobre**: Página com a descrição do projeto e a contagem de filmes. Utiliza o componente `Sobre.vue`.
+
+### Componentes Reutilizáveis
+
+-   **`FilmeCard.vue`**: Componente responsável por exibir as informações de um único filme em um card (título, gênero, nota) e contém o botão para exclusão.
+-   **`FilmeForm.vue`**: Componente que contém os campos do formulário para o cadastro de um novo filme.
 
 ## 🛠️ Tecnologias Utilizadas
 
